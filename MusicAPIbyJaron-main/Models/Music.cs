@@ -5,7 +5,7 @@ namespace MusicAPIJaron.Models
     public class Music
     {
         [Key]
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
 
         public string Artist { get; set; }

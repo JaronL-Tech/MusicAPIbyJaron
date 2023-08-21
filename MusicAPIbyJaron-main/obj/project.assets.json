@@ -4000,11 +4000,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\devcodecamp\\c#intro\\MusicAPIJaron\\MusicAPIJaron.csproj",
+      "projectUniqueName": "C:\\Users\\jleac\\OneDrive\\Desktop\\MusicAPIbyJaron-main\\MusicAPIJaron.csproj",
       "projectName": "MusicAPIJaron",
-      "projectPath": "C:\\devcodecamp\\c#intro\\MusicAPIJaron\\MusicAPIJaron.csproj",
+      "projectPath": "C:\\Users\\jleac\\OneDrive\\Desktop\\MusicAPIbyJaron-main\\MusicAPIJaron.csproj",
       "packagesPath": "C:\\Users\\jleac\\.nuget\\packages\\",
-      "outputPath": "C:\\devcodecamp\\c#intro\\MusicAPIJaron\\obj\\",
+      "outputPath": "C:\\Users\\jleac\\OneDrive\\Desktop\\MusicAPIbyJaron-main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jleac\\AppData\\Roaming\\NuGet\\NuGet.Config",

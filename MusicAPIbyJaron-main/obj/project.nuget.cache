@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Heoz32wFCcs6pZUg4FIEpV1Cv6lUOaO6hYcFru86g6D84UuG0GNLAl7BX6/puoJg9KryLbok2DW0R3EpQaqNBQ==",
+  "dgSpecHash": "vgA6ix03djiG08NzThAtpplzrkUrzgZy6Cnoz1t015rMLvlGAov0pFNrW/TMZ4dnVyk6GZrleIpzaYTrCZjThw==",
   "success": true,
-  "projectFilePath": "C:\\devcodecamp\\c#intro\\MusicAPIJaron\\MusicAPIJaron.csproj",
+  "projectFilePath": "C:\\Users\\jleac\\OneDrive\\Desktop\\MusicAPIbyJaron-main\\MusicAPIJaron.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jleac\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jleac\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -20,17 +20,27 @@ namespace MusicAPIJaron.Controllers
 
         // GET: api/<MusicController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            var Musics = _context.Musics.ToList();
+            return Ok(Musics);
         }
 
         // GET api/<MusicController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            var Music = _context.Musics.Find(id);
+            if (Music == null)
+            {
+                return NotFound();
+            }
+            return Ok(Music);
         }
+
+        
+             
+        
 
         // POST api/<MusicController>
         [HttpPost]
@@ -49,8 +59,17 @@ namespace MusicAPIJaron.Controllers
 
         // DELETE api/<MusicController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
+
         {
+            var Music = _context.Musics.Find(id);
+            if (Music == null)
+            {
+                return NotFound();
+            }
+            _context.Musics.Remove(Music);
+            _context.SaveChanges();
+            return NoContent();
         }
     }
 }
