@@ -55,7 +55,11 @@ namespace MusicAPIJaron.Controllers
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] Song Song)
         {
-            var Song = _context.Songs.Find(id);
+             _context.Songs.Find(id);
+            _context.Songs.Add(Song);
+            return StatusCode(201, Song);
+
+
         }
 
         // DELETE api/<SongController>/5
